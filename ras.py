@@ -78,8 +78,15 @@ class CarrinhoDeDuasRodas:
 #Teste do carrinho 
 if __name__ == "__main__":
 
-    meu_carrinho = CarrinhoDeDuasRodas(motor1_pwm_pin=17, motor1_in1_pin=18, motor1_in2_pin=23,
-                                    motor2_pwm_pin=22, motor2_in1_pin=24, motor2_in2_pin=25)
+    meu_carrinho = CarrinhoDeDuasRodas(
+                                        motor1_pwm_pin=17, 
+                                        motor1_in1_pin=18, 
+                                        motor1_in2_pin=23,
+                                        
+                                        motor2_pwm_pin=22, 
+                                        motor2_in1_pin=24,
+                                        motor2_in2_pin=25
+                                    )
 
     try:
         while True:
